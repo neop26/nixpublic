@@ -153,13 +153,20 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-    vim
-    gcc
-    gnumake
-    pamixer
-    libsForQt5.qt5.qtquickcontrols2
-    libsForQt5.qt5.qtgraphicaleffects
-    home-manager
+      putty
+      microsoft-edge
+      dig
+      twingate
+      spotify
+      neofetch
+      remmina
+      git
+      fish
+      termius
+      virt-manager
+      ranger
+      home-manager
+      kitty
   ];  
   
   xdg.portal.enable = true;
