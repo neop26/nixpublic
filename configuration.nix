@@ -33,7 +33,7 @@ boot.kernel.sysctl = { "vm.swappiness" = 10;};
   # Enable Bluetooth
   
   hardware.bluetooth.enable = true;
-  hardware.bluetooth.powerOnBoot = true;
+ # hardware.bluetooth.powerOnBoot = true;
   services.blueman.enable = true;
 
   # Set your time zone.
