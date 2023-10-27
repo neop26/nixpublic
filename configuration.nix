@@ -34,6 +34,7 @@ boot.kernel.sysctl = { "vm.swappiness" = 10;};
   
   hardware.bluetooth.enable = true;
   hardware.bluetooth.powerOnBoot = true;
+  services.blueman.enable = true;
 
   # Set your time zone.
   time.timeZone = "Pacific/Auckland";
