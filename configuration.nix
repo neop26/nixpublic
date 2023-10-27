@@ -119,6 +119,7 @@ boot.kernel.sysctl = { "vm.swappiness" = 10;};
       termius
       virt-manager
       ranger
+      kitty
       ];
 
 # Automatic Garbage Collection
