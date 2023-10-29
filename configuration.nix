@@ -60,6 +60,7 @@
 
   # Enable the KDE Plasma Desktop Environment.
      services.xserver.displayManager.sddm.enable = true;
+     services.xserver.displayManager.sddm.theme  = "${import ./sddm-theme.nix { inherit pkgs; }}";
      services.xserver.desktopManager.plasma5.enable = true;
 
   # Configure keymap in X11
@@ -123,8 +124,6 @@
       ncdu # disk manager
       gparted
       htop
-      azure-cli
-      freerdp
       unzip
       ];
 
@@ -144,6 +143,13 @@
        system.autoUpgrade = {
         enable = true;
        };
+
+# Enabling Program Configs
+	programs = {
+        fish = {
+        enable = true;
+        };
+        };
 
 # Some programs need SUID wrappers, can be configured further or are
 

@@ -7,7 +7,7 @@ let
 
   image = pkgs.fetchurl {
     url = imgLink;
-    sha256 = "sha256-P03LPqsixglR+DmEdnBQMG50G+SxazH3Gy4PFh2Q3ec=";
+    sha256 = "sha256-WAtDVVL98cNnPYfd7yMDteGFkpQbSfkkoR+QDwKanuY=";
   };
 in 
 
