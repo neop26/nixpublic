@@ -125,6 +125,7 @@
       gparted
       htop
       unzip
+      oh-my-zsh
       ];
 
 # Automatic Garbage Collection
